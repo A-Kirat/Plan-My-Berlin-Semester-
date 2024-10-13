@@ -21,8 +21,4 @@ The system uses predefined knowledge bases, `transport_kb.pl` for transport conn
 - **`transport_kb.pl`**: Defines the transport network, including routes, connections between stations, the duration of the trips, and whether the routes are bidirectional or unidirectional.
 - **`slots_kb.pl`**: Defines the scheduled slots for different groups, including the week, day, and time of their activities.
 
-## Key Prolog Predicates
 
-### Group Days
-```prolog
-group_days(Group, List)
